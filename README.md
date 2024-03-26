@@ -13,7 +13,7 @@ Preparing for a career in data science involves gaining a solid understanding of
 3. **Data Wrangling:**
    - Learn how to clean, preprocess, and transform raw data into a format suitable for analysis.
    - Understand techniques for handling missing values, outliers, and data inconsistencies.
-   - [frequently asked Data Wrangling interview questions and answers with example](https://github.com/Dinesh317/DataScience_Interview_Questions/blob/main/data_wrangling.md)
+   - [frequently asked Data Wrangling interview questions and answers with example](https://github.com/Dinesh317/DataScience_Interview_Questions/blob/main/data_wrangling_QA.md)
 
 4. **Exploratory Data Analysis (EDA):**
    - Learn techniques for visualizing and exploring data to gain insights and identify patterns.
