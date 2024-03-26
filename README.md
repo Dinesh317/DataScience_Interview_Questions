@@ -9,6 +9,7 @@ Preparing for a career in data science involves gaining a solid understanding of
 2. **Programming Skills:**
    - Learn a programming language commonly used in data science, such as Python or R.
    - Practice writing code to manipulate data, perform statistical analysis, and build machine learning models.
+   - [Basic python questions and answers with example](https://github.com/Dinesh317/DataScience_Interview_Questions/blob/main/python_QA.md)
 
 3. **Data Wrangling:**
    - Learn how to clean, preprocess, and transform raw data into a format suitable for analysis.
