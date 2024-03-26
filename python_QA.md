@@ -233,4 +233,127 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 ```
+### 21. How do you use the range() function in a for loop?
+
+**Answer:** The `range()` function in Python generates a sequence of numbers, and it is often used in for loops to iterate a specific number of times.
+
+**Example:**
+```python
+for i in range(5):
+    print(i)  # Output: 0, 1, 2, 3, 4
+```
+
+### 22. What are Python while loops?
+
+**Answer:** While loops in Python are used to repeatedly execute a block of code as long as a condition is true.
+
+**Example:**
+```python
+x = 0
+while x < 5:
+    print(x)
+    x += 1
+```
+
+### 23. How do you use break and continue statements in loops?
+
+**Answer:** The `break` statement is used to exit the loop prematurely, while the `continue` statement is used to skip the current iteration and proceed to the next iteration.
+
+**Example:**
+```python
+for i in range(10):
+    if i == 5:
+        break  # Exit the loop when i is 5
+    print(i)  # Output: 0, 1, 2, 3, 4
+
+for i in range(5):
+    if i == 2:
+        continue  # Skip iteration when i is 2
+    print(i)  # Output: 0, 1, 3, 4
+```
+
+### 24. What is a function in Python?
+
+**Answer:** A function in Python is a block of reusable code that performs a specific task. Functions can take input arguments, perform operations, and optionally return a result.
+
+**Example:**
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)  # Output: Hello, Alice!
+```
+
+### 25. How do you define and call a function in Python?
+
+**Answer:** Functions are defined using the `def` keyword followed by the function name and parameters. They are called by simply using the function name followed by parentheses.
+
+**Example:**
+```python
+def square(x):
+    return x ** 2
+
+result = square(5)
+print(result)  # Output: 25
+```
+
+### 26. What is a lambda function in Python?
+
+**Answer:** A lambda function, also known as an anonymous function, is a small, inline function defined using the `lambda` keyword. It is typically used for short, one-line operations.
+
+**Example:**
+```python
+square = lambda x: x ** 2
+print(square(5))  # Output: 25
+```
+
+### 27. What are Python modules?
+
+**Answer:** Modules in Python are files containing Python code, typically consisting of functions, classes, and variables. They allow code to be organized and reused across multiple files or projects.
+
+**Example:**
+```python
+# Importing the math module
+import math
+
+# Using a function from the math module
+print(math.sqrt(25))  # Output: 5.0
+```
+
+### 28. How do you handle exceptions in Python?
+
+**Answer:** Exceptions in Python are handled using `try`, `except`, and optionally `finally` blocks. Code that might raise an exception is placed inside the `try` block, and code to handle the exception is placed inside the `except` block.
+
+**Example:**
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Error: Division by zero")
+```
+
+### 29. What are Python built-in exceptions?
+
+**Answer:** Python provides several built-in exceptions to handle common error conditions, such as `ZeroDivisionError`, `TypeError`, `ValueError`, and `FileNotFoundError`, among others.
+
+**Example:**
+```python
+try:
+    result = int("hello")
+except ValueError:
+    print("Error: Unable to convert string to integer")
+```
+
+### 30. How do you open and read a file in Python?
+
+**Answer:** Files in Python are opened using the `open()` function, and their contents can be read using methods such as `read()`, `readline()`, or `readlines()`.
+
+**Example:**
+```python
+# Open and read the contents of a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
 Continued...
