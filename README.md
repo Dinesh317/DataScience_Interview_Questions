@@ -25,7 +25,7 @@ Preparing for a career in data science involves gaining a solid understanding of
 6. **Machine Learning:**
    - Familiarize yourself with machine learning algorithms for classification, regression, clustering, and dimensionality reduction.
    - Understand the principles behind model evaluation, hyperparameter tuning, and model selection.
-   - [frequently asked ML questions](https://github.com/Dinesh317/DataScience_Interview_Questions/blob/main/frequently_asked_ML_questions.md)
+   - [frequently asked Machine Learning interview questions and answers with example](https://github.com/Dinesh317/DataScience_Interview_Questions/blob/main/frequently_asked_ML_questions.md)
 
 7. **Data Visualization:**
    - Learn how to create effective visualizations to communicate insights and findings from data.
