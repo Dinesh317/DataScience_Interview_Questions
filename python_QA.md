@@ -139,3 +139,98 @@ print(numbers[::2])  # Output: [1, 3, 5] (Slicing every second element)
 ### 12. What are Python tuples?
 
 **Answer:** Tuples in Python are ordered collections of items, similar to lists, but they are immutable,
+meaning their elements cannot be changed after creation.
+
+**Example:**
+```python
+point = (10, 20)  # Tuple containing two integers
+person = ("Alice", 30, "New York")  # Tuple with mixed data types
+```
+
+### 13. How do you access elements in a tuple in Python?
+
+**Answer:** Elements in a tuple can be accessed using indexing, similar to lists.
+
+**Example:**
+```python
+point = (10, 20)
+print(point[0])  # Output: 10 (Accessing the first element)
+print(point[1])  # Output: 20 (Accessing the second element)
+```
+
+### 14. What are Python dictionaries?
+
+**Answer:** Dictionaries in Python are unordered collections of key-value pairs. They are mutable and can contain items of different data types.
+
+**Example:**
+```python
+person = {"name": "Alice", "age": 30, "city": "New York"}  # Dictionary representing a person
+```
+
+### 15. How do you access elements in a dictionary in Python?
+
+**Answer:** Elements in a dictionary can be accessed using keys.
+
+**Example:**
+```python
+person = {"name": "Alice", "age": 30, "city": "New York"}
+print(person["name"])  # Output: Alice (Accessing value associated with the key "name")
+print(person["age"])   # Output: 30   (Accessing value associated with the key "age")
+```
+
+### 16. How do you add or update elements in a dictionary in Python?
+
+**Answer:** You can add or update elements in a dictionary by assigning a value to a key.
+
+**Example:**
+```python
+person = {"name": "Alice", "age": 30}
+person["city"] = "New York"  # Adding a new key-value pair
+person["age"] = 35            # Updating the value associated with the "age" key
+print(person)  # Output: {'name': 'Alice', 'age': 35, 'city': 'New York'}
+```
+
+### 17. What are Python sets?
+
+**Answer:** Sets in Python are unordered collections of unique elements. They do not allow duplicate values.
+
+**Example:**
+```python
+numbers = {1, 2, 3, 4, 5}  # Set containing unique integers
+letters = {"a", "b", "c", "d"}  # Set containing unique characters
+```
+
+### 18. How do you add or remove elements from a set in Python?
+
+**Answer:** You can add elements to a set using the `add()` method and remove elements using the `remove()` or `discard()` methods.
+
+**Example:**
+```python
+numbers = {1, 2, 3}
+numbers.add(4)       # Adding element 4 to the set
+numbers.remove(2)    # Removing element 2 from the set
+print(numbers)  # Output: {1, 3, 4}
+```
+
+### 19. What are Python if statements?
+
+**Answer:** If statements in Python are used to execute code based on a condition. If the condition is true, the code block under the if statement is executed.
+
+**Example:**
+```python
+x = 10
+if x > 5:
+    print("x is greater than 5")
+```
+
+### 20. What are Python for loops?
+
+**Answer:** For loops in Python are used to iterate over a sequence (such as a list, tuple, or string) and execute code for each item in the sequence.
+
+**Example:**
+```python
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+Continued...
